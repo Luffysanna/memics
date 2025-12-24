@@ -3,7 +3,7 @@ import svgPaths from "../imports/svg-4aiayugaav";
 import logo from "../assets/img5.png";
 import { X, Moon, Sun } from "lucide-react";
 
-function MenuIcon() {
+function MenuIcon({ color }: { color: string }) {
   return (
     <div
       className="relative shrink-0 size-[48px]"
@@ -18,7 +18,7 @@ function MenuIcon() {
         <g id="jam:menu">
           <path
             d={svgPaths.p29989b00}
-            fill="var(--fill-0, white)"
+            fill={color}
             id="Vector"
           />
         </g>
@@ -68,7 +68,7 @@ export function Header({ darkMode, setDarkMode }: HeaderProps) {
             aria-label="Menu"
             onClick={toggleMenu}
           >
-            <MenuIcon />
+            <MenuIcon color={darkMode ? "white" : "black"} />
           </button>
         </div>
       </div>
