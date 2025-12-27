@@ -1,7 +1,7 @@
 import svgPaths from "../imports/svg-4aiayugaav";
-import comicCover2 from "../assets/img2.png";
-import agueroCover from "../assets/img3.png";
-import comicCover3 from "../assets/img7.png";
+import comicCover2 from "../assets/soon1.jpeg";
+import poster1 from "../assets/poster1.jpg";
+import comicCover3 from "../assets/soon2.jpeg";
 import { useState } from 'react';
 import { ComicDetail } from './ComicDetail';
 import { Lock } from 'lucide-react';
@@ -59,7 +59,7 @@ export function ComicsSection({ darkMode }: ComicsSectionProps) {
             className="font-['Poppins:Bold',sans-serif] text-center"
             style={{ color: darkMode ? 'white' : '#1a1a1a' }}
           >
-            View Latest Memics
+            View Latest Mememics
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export function ComicsSection({ darkMode }: ComicsSectionProps) {
               <img 
                 alt="Featured comic cover" 
                 className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-3xl size-full" 
-                src={agueroCover} 
+                src={poster1} 
               />
             </div>
             <div className="h-[343px] w-[251px] md:h-[380px] md:w-[280px] lg:h-[420px] lg:w-[310px] relative rounded-3xl shrink-0 hover:scale-105 transition-transform cursor-pointer overflow-hidden">

@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, ChevronUp, ChevronDown, Maximize, Minimize } from 'lucide-react';
-import comicPage2 from "../assets/img1.png";
-import comicPage3 from "../assets/img4.png";
-import comicPage1 from "../assets/img6.png";
+import comicPage1 from "../assets/soon1.jpeg";
 
 interface ComicReaderProps {
   darkMode: boolean;
@@ -16,15 +14,7 @@ export function ComicReader({ darkMode, onClose }: ComicReaderProps) {
   
   const pages = [
     comicPage1,
-    comicPage2,
-    comicPage3,
-    comicPage2,
     comicPage1,
-    comicPage3,
-    comicPage2,
-    comicPage1,
-    comicPage3,
-    comicPage2,
   ];
 
   const totalPages = pages.length;

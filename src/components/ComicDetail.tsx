@@ -1,6 +1,6 @@
 import { X, Copy } from 'lucide-react';
 import svgPaths from "../imports/svg-4651ig98wj";
-import agueroCover from "../assets/img3.png";
+import poster1 from "../assets/poster1.jpg";
 import { useState, useRef } from 'react';
 import { ComicReader } from './ComicReader';
 
@@ -25,12 +25,12 @@ interface ComicDetailProps {
   coverImage?: string;
 }
 
-export function ComicDetail({ darkMode, onClose, coverImage = agueroCover }: ComicDetailProps) {
+export function ComicDetail({ darkMode, onClose, coverImage = poster1 }: ComicDetailProps) {
   const [isReaderOpen, setIsReaderOpen] = useState(false);
   
   const handleCopy = () => {
     // Fallback method that works in restricted environments
-    const text = 'AX5jUCzK33auqxoBkwuyRc4W7WPqQCgyXPi5oxN8HC2U';
+    const text = 'Coming Soon';
     const textarea = document.createElement('textarea');
     textarea.value = text;
     textarea.style.position = 'fixed';
@@ -102,7 +102,7 @@ export function ComicDetail({ darkMode, onClose, coverImage = agueroCover }: Com
               className="text-2xl md:text-3xl mb-4"
               style={{ color: darkMode ? 'white' : '#1a1a1a' }}
             >
-              Aguero Moment
+              Mememics '25
             </h1>
 
             {/* Address with Copy Button */}
@@ -111,7 +111,7 @@ export function ComicDetail({ darkMode, onClose, coverImage = agueroCover }: Com
                 className="font-['Poppins:Medium',sans-serif] text-xs md:text-sm flex-1 overflow-hidden text-ellipsis"
                 style={{ color: darkMode ? 'white' : '#333333' }}
               >
-                AX5jUCzK33auqxoBkwuyRc4W7WPqQCgyXPi5oxN8HC2U
+                Coming Soon
               </div>
               <button 
                 onClick={handleCopy}
@@ -127,7 +127,7 @@ export function ComicDetail({ darkMode, onClose, coverImage = agueroCover }: Com
               className="font-['Poppins:Regular',sans-serif] text-sm md:text-base leading-relaxed mb-8"
               style={{ color: darkMode ? 'white' : '#333333' }}
             >
-              The Orange Fox sees the crypto market crashing and tries to panic-sell. However, he trips over his own tail and accidentally faceplants the "MAX BUY" button at the last second. This clumsy mistake triggers a massive price pump (the "Aguero Moment"). The Fox then puts on sunglasses and pretends he planned it all along.
+              A chaotic, meme-driven comic that documents 2025 as it actually felt. Hacks, memes, geopolitics, Polymarket odds to viral brain-rot, and internet canon events, each panel stitches together real moments and online madness into one unhinged timeline. A sweating Time Traveller tries (and fails) to warn everyone as the market, memes, and reality collapse.
             </p>
 
             {/* Read Now Button */}

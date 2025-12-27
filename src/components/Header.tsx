@@ -1,6 +1,6 @@
 import { useState } from "react";
 import svgPaths from "../imports/svg-4aiayugaav";
-import logo from "../assets/img5.png";
+import logo from "../assets/logo.jpg";
 import { X, Moon, Sun } from "lucide-react";
 
 function MenuIcon({ color }: { color: string }) {
@@ -36,12 +36,7 @@ export function Header({ darkMode, setDarkMode }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const categories = [
-    "Bitcoin Stories",
-    "NFT Adventures",
-    "DeFi Chronicles",
-    "Meme Coins",
-    "Crypto Chaos",
-    "Web3 Tales",
+    "Coming Soon",
   ];
 
   const toggleMenu = () => {

@@ -1,4 +1,4 @@
-import categoryPreview from "../assets/img3.png";
+import categoryPreview from "../assets/coming-soon.jpeg";
 
 interface CategoriesProps {
   darkMode: boolean;
@@ -11,7 +11,7 @@ export function Categories({ darkMode }: CategoriesProps) {
         <h2 
           style={{ color: darkMode ? 'white' : '#1a1a1a' }}
         >
-          Categories
+          Mememics
         </h2>
         
         <div className="relative inline-block max-w-[389px]">

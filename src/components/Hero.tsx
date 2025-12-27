@@ -12,7 +12,7 @@ export function Hero({ darkMode }: HeroProps) {
         >
           Crypto Stories,
           <br />
-          Told in Memics.
+          Told in Mememics.
         </h1>
         <p 
           className="font-['Poppins:Regular',sans-serif] text-sm md:text-base text-center max-w-2xl"
