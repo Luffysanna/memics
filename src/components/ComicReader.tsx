@@ -18,9 +18,9 @@ import comicPage15 from "../assets/15.png";
 import comicPage16 from "../assets/16.png";
 import comicPage17 from "../assets/17.png";
 import comicPage18 from "../assets/18.png";
-import comicPage19 from "../assets/19.png";
+import comicPage19 from "../assets/19 copy.png";
 import comicPage20 from "../assets/20.png";
-import comicPage21 from "../assets/21.png";
+import comicPage21 from "../assets/21 copy.png";
 
 
 interface ComicReaderProps {
