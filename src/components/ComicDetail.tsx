@@ -111,7 +111,7 @@ export function ComicDetail({ darkMode, onClose, coverImage = poster1 }: ComicDe
                 className="font-['Poppins:Medium',sans-serif] text-xs md:text-sm flex-1 overflow-hidden text-ellipsis"
                 style={{ color: darkMode ? 'white' : '#333333' }}
               >
-                Coming Soon
+                Afpk2PwKC8SRNXKLgdbMavf1zRmWCmKkrjXKuqbapump
               </div>
               <button 
                 onClick={handleCopy}
