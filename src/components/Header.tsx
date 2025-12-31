@@ -1,6 +1,6 @@
 import { useState } from "react";
 import svgPaths from "../imports/svg-4aiayugaav";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.jpeg";
 import { X, Moon, Sun } from "lucide-react";
 
 function MenuIcon({ color }: { color: string }) {

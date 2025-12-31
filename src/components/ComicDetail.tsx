@@ -102,7 +102,7 @@ export function ComicDetail({ darkMode, onClose, coverImage = poster1 }: ComicDe
               className="text-2xl md:text-3xl mb-4"
               style={{ color: darkMode ? 'white' : '#1a1a1a' }}
             >
-              Mememics '25
+               Clash of Memes
             </h1>
 
             {/* Address with Copy Button */}
@@ -111,7 +111,7 @@ export function ComicDetail({ darkMode, onClose, coverImage = poster1 }: ComicDe
                 className="font-['Poppins:Medium',sans-serif] text-xs md:text-sm flex-1 overflow-hidden text-ellipsis"
                 style={{ color: darkMode ? 'white' : '#333333' }}
               >
-                Afpk2PwKC8SRNXKLgdbMavf1zRmWCmKkrjXKuqbapump
+                Coming soon
               </div>
               <button 
                 onClick={handleCopy}

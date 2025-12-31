@@ -1,26 +1,8 @@
 import { useState, useEffect } from 'react';
 import { X, ChevronUp, ChevronDown, Maximize, Minimize } from 'lucide-react';
-import comicPage1 from "../assets/1.jpeg";
-import comicPage2 from "../assets/2.png";
-import comicPage3 from "../assets/3.png";
-import comicPage4 from "../assets/4.png";
-import comicPage5 from "../assets/5.png";
-import comicPage6 from "../assets/6.png";
-import comicPage7 from "../assets/7.png";
-import comicPage8 from "../assets/8.png";
-import comicPage9 from "../assets/9.png";
-import comicPage10 from "../assets/10.png";
-import comicPage11 from "../assets/11.png";
-import comicPage12 from "../assets/12.png";
-import comicPage13 from "../assets/13.png";
-import comicPage14 from "../assets/14.png";
-import comicPage15 from "../assets/15.png";
-import comicPage16 from "../assets/16.png";
-import comicPage17 from "../assets/17.png";
-import comicPage18 from "../assets/18.png";
-import comicPage19 from "../assets/19 copy.png";
-import comicPage20 from "../assets/20.png";
-import comicPage21 from "../assets/21 copy.png";
+import comicPage1 from "../assets/soon1.jpeg";
+import comicPage2 from "../assets/soon2.jpeg";
+
 
 
 interface ComicReaderProps {
@@ -36,25 +18,6 @@ export function ComicReader({ darkMode, onClose }: ComicReaderProps) {
   const pages = [
     comicPage1,
     comicPage2,
-    comicPage3,
-    comicPage4,
-    comicPage5,
-    comicPage6,
-    comicPage7,
-    comicPage8,
-    comicPage9,
-    comicPage10,
-    comicPage11,
-    comicPage12,
-    comicPage13,
-    comicPage14,
-    comicPage15,
-    comicPage16,
-    comicPage17,
-    comicPage18,
-    comicPage19,
-    comicPage20,
-    comicPage21,
     
   ];
 
